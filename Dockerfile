@@ -1,4 +1,4 @@
-FROM quay.io/soketi/soketi:1-16-alpine
+FROM quay.io/soketi/soketi:1.2.0-16-distroless
 
 ARG DEFAULT_APP_ID
 ENV DEFAULT_APP_ID=$DEFAULT_APP_ID
